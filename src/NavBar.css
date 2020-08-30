@@ -9,8 +9,6 @@
 
 .NavBar .navbar-brand {
   display: inline-block;
-  line-height: inherit;
-  white-space: nowrap;
   font-family: "Alfa Slab One", cursive;
   font-size: 40px;
 }
