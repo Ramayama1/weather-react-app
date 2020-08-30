@@ -1,0 +1,32 @@
+.NavBar {
+  border-radius: 0.25em;
+  margin: 5px;
+  color: white;
+  background-color: rgba(65, 63, 63, 0.7) !important;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+.NavBar form {
+  justify-content: center;
+}
+.NavBar .navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin: 5px 30px 5px;
+  line-height: inherit;
+  white-space: nowrap;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 40px;
+}
+
+.NavBar:hover {
+  box-shadow: 4px 4px 4px black;
+  opacity: 1;
+}
+.NavBar .searchCityID {
+  border: none;
+  box-shadow: none;
+  padding: 2px;
+}

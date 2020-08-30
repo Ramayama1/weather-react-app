@@ -1,0 +1,6 @@
+.Forecast p {
+  margin: 0px;
+}
+.Forecast .forecastIcon {
+  width: 50px !important;
+}

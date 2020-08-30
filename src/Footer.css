@@ -1,0 +1,28 @@
+.Footer {
+  color: white;
+  background-color: rgba(65, 63, 63, 0.7) !important;
+  margin: 5px !important;
+  text-align: center;
+  font-family: monospace;
+  opacity: 0.9;
+  border-radius: 0.25em;
+}
+.Footer .links {
+  font-size: 20px;
+  color: white;
+}
+.Footer a {
+  text-decoration-style: none;
+  color: white;
+  opacity: 0.9;
+}
+.Footer a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  box-shadow: 4px 4px 4px black;
+  opacity: 1;
+}
+.Footer p {
+  margin: 0px;
+}
