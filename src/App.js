@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
@@ -9,11 +10,13 @@ import CurrentDay from "./CurrentDay";
 
 export default function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <CurrentDay />
-      {/* <Forecast />*/}
-      <Footer />
+    <div className="container">
+      <div className="App">
+        <NavBar />
+        <CurrentDay />
+        {/* <Forecast />*/}
+        <Footer />
+      </div>
     </div>
   );
 }
