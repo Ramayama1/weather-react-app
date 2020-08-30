@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="Footer footer">
       <p>
         <a
-          href="https://github.com/Ramayama1/SheCodes.git"
+          href="https://github.com/Ramayama1/weather-react-app"
           target="_blank"
           rel="noopener noreferrer"
         >
