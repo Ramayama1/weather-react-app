@@ -7,8 +7,6 @@ body {
   max-width: 700px;
 }
 .container {
-  max-width: 900px;
-
   background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 
@@ -20,9 +18,9 @@ body {
 }
 .card {
   color: white;
-  margin: 5px;
   background-color: rgba(65, 63, 63, 0.7) !important;
   opacity: 0.9;
+  margin: 0px;
 }
 .btn {
   margin: 2px;
@@ -30,4 +28,8 @@ body {
 div.card.text-center:hover {
   box-shadow: 4px 4px 4px black;
   opacity: 1;
+}
+.row {
+  margin: 5px 0px;
+  padding: 0;
 }

@@ -22,9 +22,6 @@
   color: white;
 }
 
-.CurrentDay {
-  margin: 5px;
-}
 .CurrentDay .cityName {
   line-height: 1.35;
 }
